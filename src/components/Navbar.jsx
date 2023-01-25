@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <section className="border">
+    <section className="text-white">
       <nav className="flex justify-between items-center">
         <div className="pl-4">
           <h2 className="font-jost text-2xl">Sairock</h2>
