@@ -1,3 +1,4 @@
+import Schedule from "./Schedule";
 import beachPhoto from "/src/images/beach.jpg";
 
 const DailySchedule = () => {
@@ -10,7 +11,12 @@ const DailySchedule = () => {
         <li className="px-2">Evening</li>
         <li className="px-2">Late Night</li>
       </ul>
-      
+      <div className="flex mt-10 ">
+      <Schedule />
+      <Schedule />
+      <Schedule />
+      <Schedule />
+      </div>
     </section>
   );
 };
