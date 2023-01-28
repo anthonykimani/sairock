@@ -1,6 +1,7 @@
 
 import BookBar from "./BookBar";
 import DailySchedule from "./DailySchedule";
+import Events from "./Events";
 import Navbar from "./Navbar";
 import beachPhoto from '/src/images/beach.jpg';
 
@@ -12,6 +13,7 @@ const Home = () => {
             </div>
             <BookBar />
             <DailySchedule />
+            <Events />
         </div>
      );
 }

@@ -12,10 +12,10 @@ const DailySchedule = () => {
         <li className="px-2">Late Night</li>
       </ul>
       <div className="flex mt-10 ">
-      <Schedule />
-      <Schedule />
-      <Schedule />
-      <Schedule />
+        <Schedule />
+        <Schedule />
+        <Schedule />
+        <Schedule />
       </div>
     </section>
   );
